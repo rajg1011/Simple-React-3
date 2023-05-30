@@ -1,0 +1,13 @@
+.button {
+  margin-top: 2%;
+  padding: 2% 0% 1% 0%;
+  width: 10vw;
+  cursor: pointer;
+  font-weight: 500;
+  font-family: "Josefin Sans", sans-serif;
+  color: white;
+  font-size: 20px;
+  margin-left: 80%;
+  border: none; /*there is by default border*/
+  background-color: rgb(131, 23, 148);
+}

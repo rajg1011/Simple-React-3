@@ -1,0 +1,44 @@
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  z-index: 10;
+  background: rgba(0, 0, 0, 0.75);
+}
+.outer-card {
+  margin: auto;
+  margin-top: 10%;
+  height: 50%;
+  width: 50%;
+  position: absolute;
+  left: 25%;
+  z-index: 100;
+}
+
+.heading-div {
+  background-color: rgb(131, 23, 148);
+  padding: 1px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.heading-div p {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.inner-div {
+  background-color: white;
+  padding: 1px 3% 2% 0%;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.inner-div_data p {
+  font-size: 20px;
+  margin-left: 3%;
+}
